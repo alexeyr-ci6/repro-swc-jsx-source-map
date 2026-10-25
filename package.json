@@ -1,0 +1,14 @@
+{
+  "name": "repro-swc-jsx-source-map",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal reproduction of SWC development JSX source annotations ignoring an incoming source map",
+  "scripts": {
+    "test": "node repro.cjs"
+  },
+  "dependencies": {
+    "@swc/core": "1.16.18",
+    "@jridgewell/gen-mapping": "0.3.13",
+    "@jridgewell/trace-mapping": "0.3.31"
+  }
+}
